@@ -1,0 +1,23 @@
+svg {
+  overflow: visible;
+  margin: 2rem;
+  cursor: crosshair;
+
+  .x-axis,
+  .y-axis {
+    color: brown;
+  }
+  .x-axis-grid,
+  .y-axis-grid {
+    color: rgb(0, 0, 0, 0.1);
+  }
+
+  .arrow2 {
+    transition: all 0.5s;
+
+    fill: rebeccapurple !important;
+    &:hover {
+      fill: rgb(115, 86, 145) !important;
+    }
+  }
+}
